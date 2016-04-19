@@ -1,0 +1,19 @@
+<div class="container">
+
+  <form class="header" ng-submit="galleryCtrl.addImage()">
+
+    <input  type="text" placeholder="Name" ng-model="galleryCtrl.name">
+    <input  type="text" placeholder="Image URL" ng-model="galleryCtrl.image">
+    <input class="button" type="submit">
+  </form>
+
+  <ul class="gallery">
+
+    <li class="gallery-image" ng-repeat="item in galleryCtrl.list">
+      <img ng-src="{{ item.image }}">
+      <span>{{ item.name }}</span>
+    </li>
+
+  </ul>
+
+</div>

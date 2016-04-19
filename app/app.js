@@ -10,7 +10,7 @@ let App = angular.module('app', [
   'ui.router',
   'firebase',
 
-  'tiy.gallery'
+  'jk.gallery'
 ]);
 
 function config($urlRouterProvider) {
