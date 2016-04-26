@@ -11,12 +11,7 @@ class GalleryController {
     trying to create */
 
   addImage() {
-    this.newImage = {
-      name : this.name,
-      image: this.image
-    }
-    this._GalleryService.add(this.newImage);
-    this.newImage = this._GalleryService.new();
+    this._GalleryService.add(this.newImage)
   }
 
 }

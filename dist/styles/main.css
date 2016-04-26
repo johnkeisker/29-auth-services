@@ -1,8 +1,66 @@
-.header {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  width: 900px;
-  background-color: red; }
-  .header input {
-    margin-left: 20px; }
+h1 {
+  font-family: Verdana;
+  font-size: 40px;
+  text-align: center;
+  color: #336699;
+  text-shadow: 3px 3px 3px silver; }
+
+.name {
+  margin: 0 auto;
+  width: 200px;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #336699;
+  border: 3px solid #003366; }
+
+.url {
+  margin: 0 auto;
+  padding: 20px;
+  width: 600px;
+  margin-bottom: 40px;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #336699;
+  border: 3px solid #003366; }
+
+.button {
+  margin: 0 auto;
+  width: 200px;
+  font-family: Verdana;
+  color: #bb0000;
+  background-color: #336699;
+  display: block;
+  font-size: 40px;
+  border-radius: 20px;
+  border: 3px solid #003366; }
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 500px; }
+
+li {
+  margin: 20px 30px 5px 0px;
+  text-align: center;
+  float: left; }
+
+img {
+  margin: 30px 0 10px 0;
+  border: 3px solid #336699; }
+
+p {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana;
+  color: #003366;
+  text-shadow: 2px 2px 2px silver; }
+
+body {
+  background-image: url("http://edublogawards.com/files/2012/11/background-239lmq8.jpg"); }
